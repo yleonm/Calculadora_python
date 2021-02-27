@@ -24,6 +24,17 @@ boton_9.grid(row=2,column=3)
 boton_dividir = Button(mi_frame, text= "/", width=3)
 boton_dividir.grid(row=2,column=4)
 
+#------------ Fila 2-------------------------------------
+boton_4 = Button(mi_frame, text= "4", width=3)
+boton_4.grid(row=3,column=1)
 
+boton_5 = Button(mi_frame, text= "5", width=3)
+boton_5.grid(row=3,column=2)
+
+boton_6 = Button(mi_frame, text= "6", width=3)
+boton_6.grid(row=3,column=3)
+
+boton_multiplicar = Button(mi_frame, text= "*", width=3)
+boton_multiplicar.grid(row=3,column=4)
 
 raiz.mainloop()
