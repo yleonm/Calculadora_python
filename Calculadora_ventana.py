@@ -50,4 +50,17 @@ boton_3.grid(row=4,column=3)
 boton_sumar = Button(mi_frame, text= "+", width=3)
 boton_sumar.grid(row=4,column=4)
 
+#------------ Fila 4-------------------------------------
+boton_0 = Button(mi_frame, text= "0", width=3)
+boton_0.grid(row=5,column=1)
+
+boton_coma = Button(mi_frame, text= ",", width=3)
+boton_coma.grid(row=5,column=2)
+
+boton_igual = Button(mi_frame, text= "=", width=3)
+boton_igual.grid(row=5,column=3)
+
+boton_resta = Button(mi_frame, text= "-", width=3)
+boton_resta.grid(row=5,column=4)
+
 raiz.mainloop()
