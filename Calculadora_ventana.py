@@ -37,4 +37,17 @@ boton_6.grid(row=3,column=3)
 boton_multiplicar = Button(mi_frame, text= "*", width=3)
 boton_multiplicar.grid(row=3,column=4)
 
+#------------ Fila 3-------------------------------------
+boton_1 = Button(mi_frame, text= "1", width=3)
+boton_1.grid(row=4,column=1)
+
+boton_2 = Button(mi_frame, text= "2", width=3)
+boton_2.grid(row=4,column=2)
+
+boton_3 = Button(mi_frame, text= "3", width=3)
+boton_3.grid(row=4,column=3)
+
+boton_sumar = Button(mi_frame, text= "+", width=3)
+boton_sumar.grid(row=4,column=4)
+
 raiz.mainloop()
